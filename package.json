@@ -1,6 +1,9 @@
 {
   "name": "mindbox-todo",
   "version": "0.1.0",
+  "author": "Mkhitar Abrahamyan",
+  "email": "mkhitar.abrahamyan99@gmail.com",
+  "date": "10:40 +4 time zone",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -20,8 +23,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx,css}\""
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
