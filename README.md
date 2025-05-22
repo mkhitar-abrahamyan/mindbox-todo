@@ -42,3 +42,5 @@ Using prettier
 - [React Documentation](https://reactjs.org/)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+
+**GitHub Pages**: [mkhitar-abrahamyan.github.io/mindbox-todo](https://mkhitar-abrahamyan.github.io/mindbox-todo/)
